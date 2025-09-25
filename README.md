@@ -1,3 +1,3 @@
 # HighVisionTrading
 
-Project for High Vision Trading location in Dubai.
+Project for High Vision Trading located in Dubai.
