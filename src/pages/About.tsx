@@ -13,17 +13,17 @@ const About = () => {
     {
       icon: Eye,
       title: 'Vision',
-      description: 'To be the leading trading partner recognized for exceptional quality, reliability, and customer service across all industries we serve.'
+      description: 'To be the leading supplier in electrical, hardware, plumbing, and computer accessories, recognized for our innovation , reliability, and committed to customer satisfaction.'
     },
     {
       icon: Target,
       title: 'Mission',
-      description: 'To provide high-quality products and comprehensive supply solutions that empower our clients to achieve their business goals while building lasting partnerships.'
+      description: 'To empower our clients with top-quality products and solutions that drive efficiency, productivity, and success in their projects and operations.'
     },
     {
       icon: Heart,
       title: 'Values',
-      description: 'Integrity, excellence, reliability, and customer-centricity guide everything we do. We believe in sustainable practices and ethical business relationships.'
+      description: 'Integrity and transparency in all business dealings. Innovation and continuous improvement. Customer focus and satisfaction. Sustainability and environmental responsibility.'
     }
   ];
 
@@ -68,7 +68,7 @@ const About = () => {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About High Vision Trading</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Building partnerships, delivering excellence, and creating value for over 15 years in the trading industry.
+              Your trusted partner for quality products and exceptional service in electrical, hardware, plumbing, and computer accessories.
             </p>
           </div>
         </div>
@@ -102,19 +102,10 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Founded in 2009, High Vision Trading began as a small family business with a simple vision: 
-                  to provide high-quality products and exceptional service to businesses and individuals who 
-                  demand excellence.
+                  High Vision Trading comes from a well-established business group based in the UAE operating since more than two decades with a diversed portfolio.
                 </p>
                 <p>
-                  Over the years, we have grown from a local supplier to a trusted international trading partner, 
-                  serving hotels, restaurants, offices, and homes across multiple countries. Our success is built 
-                  on strong relationships, unwavering quality standards, and a deep understanding of our clients' needs.
-                </p>
-                <p>
-                  Today, we continue to innovate and expand our product range while maintaining the personal touch 
-                  and attention to detail that has been our hallmark from day one. Every product we supply and every 
-                  service we provide reflects our commitment to excellence and our clients' success.
+                  High Vision Trading is a dynamic and customer-focused specializing in the supply and distribution of high-quality products across multiple industries. With a strong commitment to excellence, we cater to the needs of businesses and individuals by providing a wide range of products in the electric, hardware, plumbing and computer accessories sectors. Our mission is to deliver innovative solutions, reliable products, and exceptional service to our clients, ensuring their success and satisfaction. 
                 </p>
               </div>
             </div>
