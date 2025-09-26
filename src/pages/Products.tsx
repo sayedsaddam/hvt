@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { Search, Filter, Tag, Star, ShoppingCart } from 'lucide-react';
+import { Search, Filter, Tag, Star, ShoppingCart, HardDriveDownload } from 'lucide-react';
+import electrical from '../assets/images/electrical.webp';
+import hardware from '../assets/images/hardware.webp';
+import plumbing from '../assets/images/plumbing.webp';
+import marine from '../assets/images/marine.webp';
+import networking from '../assets/images/networking.webp';
+import packaging from '../assets/images/packaging.webp';
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -7,111 +13,111 @@ const Products = () => {
 
   const categories = [
     { id: 'all', name: 'All Products', count: 48 },
-    { id: 'kitchen', name: 'Kitchen & Catering', count: 12 },
-    { id: 'cleaning', name: 'Cleaning Supplies', count: 8 },
-    { id: 'office', name: 'Office Supplies', count: 10 },
-    { id: 'textiles', name: 'Textiles & Linens', count: 7 },
-    { id: 'equipment', name: 'Equipment', count: 6 },
-    { id: 'personal', name: 'Personal Care', count: 5 }
+    { id: 'electrical', name: 'Electrical Products', count: 12 },
+    { id: 'hardware', name: 'Hardware Supplies', count: 8 },
+    { id: 'plumbing', name: 'Plumbing Solutions', count: 10 },
+    { id: 'networking', name: 'Networking Accessories', count: 7 },
+    { id: 'packaging', name: 'Packaging Solutions', count: 6 },
+    { id: 'marine', name: 'Marine Solutions', count: 5 }
   ];
 
   const products = [
     {
       id: 1,
-      name: 'Premium Kitchen Knife Set',
-      category: 'kitchen',
-      price: '$299.99',
+      name: 'Electircal switch boards',
+      category: 'electrical',
+      price: 'AED 150.00',
       rating: 4.8,
       reviews: 24,
-      image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: electrical,
       description: 'Professional-grade stainless steel knife set perfect for restaurants and hotels.',
       features: ['Stainless Steel', 'Ergonomic Handle', 'Professional Grade']
     },
     {
       id: 2,
-      name: 'Industrial Vacuum Cleaner',
-      category: 'cleaning',
-      price: '$449.99',
+      name: 'Hand and power tools',
+      category: 'hardware',
+      price: 'AED 250.00',
       rating: 4.9,
       reviews: 18,
-      image: 'https://images.pexels.com/photos/6195114/pexels-photo-6195114.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: hardware,
       description: 'Heavy-duty vacuum cleaner suitable for commercial and office environments.',
       features: ['High Suction Power', 'Large Capacity', 'HEPA Filter']
     },
     {
       id: 3,
-      name: 'Executive Office Chair',
-      category: 'office',
-      price: '$399.99',
+      name: 'Pipes and fittings',
+      category: 'plumbing',
+      price: 'AED 120.00',
       rating: 4.7,
       reviews: 31,
-      image: 'https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: plumbing,
       description: 'Ergonomic leather office chair with lumbar support and adjustable height.',
       features: ['Leather Upholstery', 'Lumbar Support', 'Height Adjustable']
     },
     {
       id: 4,
-      name: 'Hotel Quality Bed Linens',
-      category: 'textiles',
-      price: '$159.99',
+      name: 'Peripherals and accessories',
+      category: 'networking',
+      price: 'AED 300.00',
       rating: 4.6,
       reviews: 42,
-      image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: networking,
       description: 'Luxury cotton bed linen set including sheets, pillowcases, and duvet covers.',
       features: ['100% Cotton', 'Thread Count 400', 'Machine Washable']
     },
     {
       id: 5,
-      name: 'Commercial Coffee Machine',
-      category: 'equipment',
-      price: '$1,299.99',
+      name: 'Packaging materials and Kraft papers',
+      category: 'packaging',
+      price: 'AED 200.00',
       rating: 4.8,
       reviews: 15,
-      image: 'https://images.pexels.com/photos/4226861/pexels-photo-4226861.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: packaging,
       description: 'Professional espresso machine perfect for cafes, restaurants, and offices.',
       features: ['Dual Boiler', 'Steam Wand', 'Programmable']
     },
     {
       id: 6,
-      name: 'Eco-Friendly Cleaning Set',
-      category: 'cleaning',
-      price: '$89.99',
+      name: 'Marine cleaning supplies',
+      category: 'marine',
+      price: 'AED 180.00',
       rating: 4.5,
       reviews: 28,
-      image: 'https://images.pexels.com/photos/4099235/pexels-photo-4099235.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: marine,
       description: 'Complete eco-friendly cleaning solution for environmentally conscious businesses.',
       features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
     },
     {
       id: 7,
-      name: 'Professional Cookware Set',
-      category: 'kitchen',
-      price: '$549.99',
+      name: 'Storage Devices & Accessories',
+      category: 'networking',
+      price: 'AED 499.00',
       rating: 4.9,
       reviews: 19,
-      image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: networking,
       description: 'Complete stainless steel cookware set for commercial kitchens and restaurants.',
       features: ['Stainless Steel', 'Induction Ready', 'Dishwasher Safe']
     },
     {
       id: 8,
-      name: 'Premium Bath Towel Set',
-      category: 'textiles',
-      price: '$79.99',
+      name: 'Valves & Connectors',
+      category: 'plumbing',
+      price: 'AED 350.00',
       rating: 4.7,
       reviews: 35,
-      image: 'https://images.pexels.com/photos/6198368/pexels-photo-6198368.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: plumbing,
       description: 'Luxury hotel-grade towel set made from Egyptian cotton.',
       features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
     },
     {
       id: 9,
-      name: 'Wireless Conference System',
-      category: 'office',
-      price: '$899.99',
+      name: 'Construction Tools & Equipment',
+      category: 'hardware',
+      price: 'AED 450.00',
       rating: 4.6,
       reviews: 12,
-      image: 'https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: hardware,
       description: 'Advanced wireless conference system for modern meeting rooms.',
       features: ['Wireless', 'HD Audio', 'Easy Setup']
     }
