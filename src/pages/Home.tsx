@@ -71,10 +71,10 @@ const HomePage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
-                to="/products"
+                to="/categories"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2"
               >
-                <span>Explore Products</span>
+                <span>Browse Categories</span>
                 <ArrowRight size={20} />
               </Link>
               <Link
