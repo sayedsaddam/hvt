@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Search, Filter, Star, ShoppingCart, ArrowLeft, Package } from 'lucide-react';
+import electrical from '../assets/images/electrical.webp';
+import hardware from '../assets/images/hardware.webp';
+import plumbing from '../assets/images/plumbing.webp';
+import marine from '../assets/images/marine.webp';
+import networking from '../assets/images/networking.webp';
+import packaging from '../assets/images/packaging.webp';
 
 const CategoryProducts = () => {
   const { categoryId } = useParams();
@@ -10,9 +16,9 @@ const CategoryProducts = () => {
   // Category information
   const categoryInfo = {
     electrical: {
-      name: 'Kitchen & Catering',
-      description: 'Professional kitchen equipment, cookware, and catering supplies',
-      image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Electrical Products',
+      description: 'High-quality electrical equipment, components, and installation supplies for professional applications.',
+      image: electrical
     },
     hardware: {
       name: 'Cleaning Supplies',

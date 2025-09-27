@@ -22,62 +22,62 @@ const Categories = () => {
     {
       id: 'electrical',
       name: 'Electrical Products',
-      description: 'Professional kitchen equipment, cookware, and catering supplies for restaurants and hotels',
+      description: 'High-quality electrical equipment, components, and installation supplies for professional applications.',
       icon: UtensilsCrossed,
       image: electrical,
-      productCount: 45,
+      productCount: 10,
       targetAudience: 'Hotels, Restaurants, Cafes',
-      featured: ['Commercial cookware', 'Kitchen appliances', 'Food storage', 'Serving equipment']
+      featured: ['Switches & Sockets', 'Floor Boxes', ' Switch Gears & Components', 'Serving equipment']
     },
     {
       id: 'hardware',
       name: 'Hardware Supplies',
-      description: 'Industrial and commercial cleaning products, equipment, and maintenance supplies',
+      description: 'Hardware products, equipment, & maintenance supplies for industrial & commercial applications.',
       icon: Sparkles,
       image: hardware,
-      productCount: 32,
+      productCount: 21,
       targetAudience: 'All Business Types',
-      featured: ['Industrial cleaners', 'Vacuum systems', 'Sanitizers', 'Cleaning tools']
+      featured: ['Water Pumps', 'Multi Stage Centrifugal Pumps', 'Float Switches', 'Motor Starters']
     },
     {
       id: 'plumbing',
       name: 'Plumbing Solutions',
-      description: 'Complete office solutions including furniture, stationery, and business equipment',
+      description: 'Complete plumbing solutions including fixtures, fittings, tools, and maintenance equipment.',
       icon: Briefcase,
       image: plumbing,
-      productCount: 38,
+      productCount: 21,
       targetAudience: 'Hotels, Homes',
       featured: ['Office furniture', 'Stationery', 'IT accessories', 'Storage solutions']
     },
     {
       id: 'networking',
       name: 'Networking Accessories',
-      description: 'High-quality textiles, bed linens, towels, and fabric products for hospitality',
+      description: 'High-quality networking accessories, cables, and connectors for professional IT environments.',
       icon: Shirt,
       image: networking,
-      productCount: 28,
+      productCount: 14,
       targetAudience: 'Offices, Corporate Spaces',
-      featured: ['Bed linens', 'Bath towels', 'Table linens', 'Curtains & drapes']
+      featured: ['Cat-6 Cable', 'CCTV Cameras', 'Structure Cable System', 'Access Control System']
     },
     {
       id: 'packaging',
       name: 'Packaging Solutions',
-      description: 'Professional equipment and machinery for various business operations',
+      description: 'Professional packaging solutions and equipment for diverse business needs.',
       icon: Wrench,
       image: packaging,
       productCount: 22,
       targetAudience: 'All Business Types',
-      featured: ['Coffee machines', 'Industrial equipment', 'HVAC systems', 'Power tools']
+      featured: ['Boxes & Cartons', 'Bags & Pouches', 'Labels & Stickers', 'Stretch & Shrink Wraps']
     },
     {
       id: 'marine',
       name: 'Marine Solutions',
-      description: 'Personal care products and home supplies for individual customers and guest amenities',
+      description: 'Comprehensive Marine Solutions for Environmental Protection and Operational Safety',
       icon: Home,
       image: marine,
       productCount: 35,
-      targetAudience: 'Shipping, Yachts, Homes',
-      featured: ['Guest amenities', 'Personal hygiene', 'Home appliances', 'Wellness products']
+      targetAudience: 'All Business Types',
+      featured: ['Debris booms', 'Oil booms', 'Ecobag Dewatering tubes', 'Mooring System']
     }
   ];
 
