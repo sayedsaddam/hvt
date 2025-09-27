@@ -8,6 +8,13 @@ import marine from '../assets/images/marine.webp';
 import networking from '../assets/images/networking.webp';
 import packaging from '../assets/images/packaging.webp';
 
+// CategoryProducts - Plumbing Solutions
+import plumbing1 from '../assets/images/plumbing/plumbing-material-1.webp';
+import plumbing2 from '../assets/images/plumbing/plumbing-material-2.webp';
+import plumbing3 from '../assets/images/plumbing/plumbing-material-3.webp';
+import plumbing4 from '../assets/images/plumbing/plumbing-material-4.webp';
+import plumbing5 from '../assets/images/plumbing/plumbing-material-5.webp';
+
 const CategoryProducts = () => {
   const { categoryId } = useParams();
   const [searchTerm, setSearchTerm] = useState('');
@@ -106,23 +113,23 @@ const CategoryProducts = () => {
     plumbing: [
       {
         id: 6,
-        name: 'Tee, Elbow, Coupling, Reducers',
-        price: '--/--',
+        name: 'Tee, Elbow, Coupling, & Reducers',
+        price: 'Coming Soon!',
         rating: 4.7,
         reviews: 31,
-        image: 'https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=400',
-        description: 'Ergonomic leather office chair with lumbar support',
-        features: ['Leather Upholstery', 'Lumbar Support', 'Height Adjustable']
+        image: plumbing1,
+        description: 'Precision-engineered fittings for pipe branching, directional changes, connections, and diameter transitions in fluid systems.',
+        features: ['Branches pipe flow', 'Durable', 'Pressure resistant']
       },
       {
         id: 7,
-        name: 'Standing Desk Converter',
-        price: '$299.99',
+        name: 'PPR and PVC Pipes & Fittings',
+        price: 'Coming Soon!',
         rating: 4.6,
         reviews: 22,
-        image: 'https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=400',
-        description: 'Adjustable standing desk converter for health-conscious workers',
-        features: ['Height Adjustable', 'Dual Monitor Support', 'Easy Assembly']
+        image: plumbing2,
+        description: 'Durable polymer pipes and fittings engineered for corrosion-resistant, high-pressure fluid transport in plumbing and industrial applications.',
+        features: ['Corrosion Resistant', 'Lightweight', 'UV Resistant']
       }
     ],
     networking: [
