@@ -21,29 +21,29 @@ const CategoryProducts = () => {
       image: electrical
     },
     hardware: {
-      name: 'Cleaning Supplies',
-      description: 'Industrial and commercial cleaning products and equipment',
-      image: 'https://images.pexels.com/photos/4099235/pexels-photo-4099235.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Hardware Supplies',
+      description: 'Hardware products, equipment, & maintenance supplies for industrial & commercial applications.',
+      image: hardware
     },
     plumbing: {
-      name: 'Office Supplies',
-      description: 'Complete office solutions including furniture and equipment',
-      image: 'https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Plumbing Solutions',
+      description: 'Complete plumbing solutions including fixtures, fittings, tools, and maintenance equipment.',
+      image: plumbing
     },
     networking: {
-      name: 'Textiles & Linens',
-      description: 'High-quality textiles, bed linens, and fabric products',
-      image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Networking Accessories',
+      description: 'High-quality networking accessories, cables, and connectors for professional IT environments.',
+      image: networking
     },
     packaging: {
-      name: 'Equipment & Machinery',
-      description: 'Professional equipment and machinery for business operations',
-      image: 'https://images.pexels.com/photos/4226861/pexels-photo-4226861.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Packaging Solutions',
+      description: 'Professional packaging solutions and equipment for diverse business needs.',
+      image: packaging
     },
     marine: {
-      name: 'Personal Care & Home',
-      description: 'Personal care products and home supplies',
-      image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      name: 'Marine Solutions',
+      description: 'Comprehensive Marine Solutions for Environmental Protection and Operational Safety.',
+      image: marine
     }
   };
 
@@ -52,33 +52,33 @@ const CategoryProducts = () => {
     electrical: [
       {
         id: 1,
-        name: 'Professional Chef Knife Set',
-        price: '$299.99',
+        name: 'Switches & Sockets',
+        price: 'Coming Soon!',
         rating: 4.8,
         reviews: 24,
         image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
-        description: 'High-carbon stainless steel knife set with ergonomic handles',
-        features: ['Stainless Steel', 'Ergonomic Handle', 'Professional Grade']
+        description: 'High-quality switches and sockets with ergonomic designs for comfortable and reliable use.',
+        features: ['Durable Construction', 'Ergonomic Design', 'Safety Features']
       },
       {
         id: 2,
-        name: 'Commercial Blender',
-        price: '$449.99',
+        name: 'Floor Boxes',
+        price: 'Coming Soon!',
         rating: 4.7,
         reviews: 18,
         image: 'https://images.pexels.com/photos/4226861/pexels-photo-4226861.jpeg?auto=compress&cs=tinysrgb&w=400',
-        description: 'Heavy-duty commercial blender for restaurants and cafes',
-        features: ['2HP Motor', 'Stainless Steel Blades', 'Variable Speed']
+        description: 'High-quality floor boxes with ergonomic design for convenient and safe access to power and data connections in any floor setting.',
+        features: ['Durable Construction', 'Multi-Functionality', 'Easy Installation']
       },
       {
         id: 3,
-        name: 'Stainless Steel Cookware Set',
-        price: '$549.99',
+        name: 'Switch Gears & Components',
+        price: 'Coming Soon!',
         rating: 4.9,
         reviews: 32,
         image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
-        description: 'Complete 12-piece stainless steel cookware set',
-        features: ['Tri-Ply Construction', 'Induction Ready', 'Dishwasher Safe']
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
       }
     ],
     hardware: [
@@ -106,8 +106,8 @@ const CategoryProducts = () => {
     plumbing: [
       {
         id: 6,
-        name: 'Executive Office Chair',
-        price: '$399.99',
+        name: 'Tee, Elbow, Coupling, Reducers',
+        price: '--/--',
         rating: 4.7,
         reviews: 31,
         image: 'https://images.pexels.com/photos/1957478/pexels-photo-1957478.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -327,7 +327,7 @@ const CategoryProducts = () => {
                         </div>
                         <span className="text-sm text-gray-600">({product.reviews})</span>
                       </div>
-                      <div className="text-xl font-bold text-blue-600">{product.price}</div>
+                      <div className="text-sm font-semibold text-blue-600">{product.price}</div>
                     </div>
                     
                     <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2">

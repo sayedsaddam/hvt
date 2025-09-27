@@ -72,7 +72,7 @@ const Categories = () => {
     {
       id: 'marine',
       name: 'Marine Solutions',
-      description: 'Comprehensive Marine Solutions for Environmental Protection and Operational Safety',
+      description: 'Comprehensive Marine Solutions for Environmental Protection and Operational Safety.',
       icon: Home,
       image: marine,
       productCount: 35,
