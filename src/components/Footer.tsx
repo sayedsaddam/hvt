@@ -40,7 +40,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">info@highvisionstrading.com</span>
+                <span className="text-gray-300">sales@highvisiontrading.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-blue-400 mt-0.5" />
@@ -56,8 +56,8 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Clock className="h-4 w-4 text-blue-400" />
                 <div className="text-gray-300">
-                  <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
-                  <p>Saturday: 9:00 AM - 4:00 PM</p>
+                  <p>Mon - Fri: 10:00 AM - 6:00 PM</p>
+                  <p>Saturday: 10:00 AM - 4:00 PM</p>
                   <p>Sunday: Closed</p>
                 </div>
               </div>
