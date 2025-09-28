@@ -8,6 +8,19 @@ import marine from '../assets/images/marine.webp';
 import networking from '../assets/images/networking.webp';
 import packaging from '../assets/images/packaging.webp';
 
+// CategoryProducts - Electrical Products
+import switches from '../assets/images/electrical/switches-sockets.webp';
+import floorbox from '../assets/images/electrical/floor-box.webp';
+import switchgears from '../assets/images/electrical/switch-gears.webp';
+import fansexhaust from '../assets/images/electrical/fans-exhaust.webp';
+import conduit from '../assets/images/electrical/conduit-pipes.webp';
+import daytacabinets from '../assets/images/electrical/dayta-cabinets.webp';
+import isolators from '../assets/images/electrical/isolators.webp';
+import lightings from '../assets/images/electrical/lightings.webp';
+import plugtops from '../assets/images/electrical/plug-tops-extensions.webp';
+import pvcgi from '../assets/images/electrical/pvc-gi-adaptable-boxes.webp';
+
+
 // CategoryProducts - Plumbing Solutions
 import plumbing1 from '../assets/images/plumbing/plumbing-material-1.webp';
 import plumbing2 from '../assets/images/plumbing/plumbing-material-2.webp';
@@ -63,7 +76,7 @@ const CategoryProducts = () => {
         price: 'Coming Soon!',
         rating: 4.8,
         reviews: 24,
-        image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: switches,
         description: 'High-quality switches and sockets with ergonomic designs for comfortable and reliable use.',
         features: ['Durable Construction', 'Ergonomic Design', 'Safety Features']
       },
@@ -73,7 +86,7 @@ const CategoryProducts = () => {
         price: 'Coming Soon!',
         rating: 4.7,
         reviews: 18,
-        image: 'https://images.pexels.com/photos/4226861/pexels-photo-4226861.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: floorbox,
         description: 'High-quality floor boxes with ergonomic design for convenient and safe access to power and data connections in any floor setting.',
         features: ['Durable Construction', 'Multi-Functionality', 'Easy Installation']
       },
@@ -83,14 +96,84 @@ const CategoryProducts = () => {
         price: 'Coming Soon!',
         rating: 4.9,
         reviews: 32,
-        image: 'https://images.pexels.com/photos/4226876/pexels-photo-4226876.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: switchgears,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 4,
+        name: 'Fans/Exhaust/Vortice Exhaust',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: fansexhaust,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 5,
+        name: 'Datya Canbinets and Districbution Boards',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: daytacabinets,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 6,
+        name: 'Weather proof isolators',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: isolators,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 7,
+        name: 'Lightings (Bulbs all kind)',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: lightings,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 8,
+        name: 'PVC, GI & Adaptable boxes',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: pvcgi,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 9,
+        name: 'Plug Tops and Extension Bars',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: plugtops,
+        description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
+        features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
+      },
+      {
+        id: 10,
+        name: 'Conduit Pipes and Accessories',
+        price: 'Coming Soon!',
+        rating: 4.9,
+        reviews: 32,
+        image: conduit,
         description: 'Reliable switch gears and components designed for efficient control and protection of electrical circuits, ensuring safe and stable power distribution.',
         features: ['Robust Build', 'Precision Engineering', 'High Electrical Performance']
       }
     ],
     hardware: [
       {
-        id: 4,
+        id: 11,
         name: 'Industrial Vacuum Cleaner',
         price: '$449.99',
         rating: 4.9,
@@ -100,7 +183,7 @@ const CategoryProducts = () => {
         features: ['High Suction Power', 'Large Capacity', 'HEPA Filter']
       },
       {
-        id: 5,
+        id: 12,
         name: 'Eco-Friendly Cleaning Kit',
         price: '$89.99',
         rating: 4.5,
@@ -112,7 +195,7 @@ const CategoryProducts = () => {
     ],
     plumbing: [
       {
-        id: 6,
+        id: 13,
         name: 'Tee, Elbow, Coupling, & Reducers',
         price: 'Coming Soon!',
         rating: 4.7,
@@ -122,7 +205,7 @@ const CategoryProducts = () => {
         features: ['Branches pipe flow', 'Durable', 'Pressure resistant']
       },
       {
-        id: 7,
+        id: 14,
         name: 'PPR and PVC Pipes & Fittings',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -132,7 +215,7 @@ const CategoryProducts = () => {
         features: ['Corrosion Resistant', 'Lightweight', 'UV Resistant']
       },
       {
-        id: 8,
+        id: 15,
         name: 'Stop Valves, Short Bridge, Blastic Ball Valves',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -142,7 +225,7 @@ const CategoryProducts = () => {
         features: ['Precise shut-off', 'Leak-proof', 'Anti-corrosive']
       },
       {
-        id: 9,
+        id: 16,
         name: 'Conduit Pipes, Fix Pipes, PVC Drainage Pipes',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -152,7 +235,7 @@ const CategoryProducts = () => {
         features: ['Lightweight, easy installation', 'Temperature resistant', 'UV resistant']
       },
       {
-        id: 10,
+        id: 17,
         name: 'FE Double Union, Brass Unions, Reducing Elbow',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -164,7 +247,7 @@ const CategoryProducts = () => {
     ],
     networking: [
       {
-        id: 8,
+        id: 18,
         name: 'Hotel Quality Bed Linens',
         price: '$159.99',
         rating: 4.6,
@@ -174,7 +257,7 @@ const CategoryProducts = () => {
         features: ['100% Cotton', 'Thread Count 400', 'Machine Washable']
       },
       {
-        id: 9,
+        id: 19,
         name: 'Premium Bath Towel Set',
         price: '$79.99',
         rating: 4.7,
@@ -186,7 +269,7 @@ const CategoryProducts = () => {
     ],
     packaging: [
       {
-        id: 10,
+        id: 20,
         name: 'Commercial Coffee Machine',
         price: '$1,299.99',
         rating: 4.8,
@@ -198,7 +281,7 @@ const CategoryProducts = () => {
     ],
     marine: [
       {
-        id: 11,
+        id: 21,
         name: 'Guest Amenity Kit',
         price: '$24.99',
         rating: 4.5,
