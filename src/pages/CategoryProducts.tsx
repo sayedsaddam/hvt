@@ -130,6 +130,36 @@ const CategoryProducts = () => {
         image: plumbing2,
         description: 'Durable polymer pipes and fittings engineered for corrosion-resistant, high-pressure fluid transport in plumbing and industrial applications.',
         features: ['Corrosion Resistant', 'Lightweight', 'UV Resistant']
+      },
+      {
+        id: 8,
+        name: 'Stop Valves, Short Bridge, Blastic Ball Valves',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: plumbing3,
+        description: 'A range of high-performance valves including Stop Valves for flow control, Short Bridge designs for compact installations, and Blastic Ball Valves engineered for durability and precision in high-pressure systems. Ideal for industrial and commercial applications requiring reliable and efficient fluid management.',
+        features: ['Precise shut-off', 'Leak-proof', 'Anti-corrosive']
+      },
+      {
+        id: 9,
+        name: 'Conduit Pipes, Fix Pipes, PVC Drainage Pipes',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: plumbing4,
+        description: 'A reliable range of piping solutions designed for electrical, structural, and drainage applications. Conduit Pipes ensure safe routing of electrical wiring, Fix Pipes offer rigid support in various construction systems, and PVC Drainage Pipes provide efficient and long-lasting wastewater management.',
+        features: ['Lightweight, easy installation', 'Temperature resistant', 'UV resistant']
+      },
+      {
+        id: 10,
+        name: 'FE Double Union, Brass Unions, Reducing Elbow',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: plumbing5,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
       }
     ],
     networking: [
