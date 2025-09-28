@@ -20,6 +20,15 @@ import lightings from '../assets/images/electrical/lightings.webp';
 import plugtops from '../assets/images/electrical/plug-tops-extensions.webp';
 import pvcgi from '../assets/images/electrical/pvc-gi-adaptable-boxes.webp';
 
+// CategoryProducts - Hardware Supplies
+import autopressurekits from '../assets/images/hardware/auto-pressure-kits.webp';
+import bathroomfaucets from '../assets/images/hardware/bathroom-faucets.webp';
+import floatswitches from '../assets/images/hardware/float-switches.webp';
+import motorstarters from '../assets/images/hardware/motor-starters.webp';
+import multistagepump from '../assets/images/hardware/multi-stage-pump.webp';
+import peripheralwaterpump from '../assets/images/hardware/peripheral-water-pump.webp';
+import triggersprays from '../assets/images/hardware/trigger-sprays.webp';
+import waterpumps from '../assets/images/hardware/water-pumps.webp';
 
 // CategoryProducts - Plumbing Solutions
 import plumbing1 from '../assets/images/plumbing/plumbing-material-1.webp';
@@ -174,21 +183,81 @@ const CategoryProducts = () => {
     hardware: [
       {
         id: 11,
-        name: 'Industrial Vacuum Cleaner',
-        price: '$449.99',
+        name: 'Water Pumps',
+        price: 'Coming Soon!',
         rating: 4.9,
         reviews: 18,
-        image: 'https://images.pexels.com/photos/6195114/pexels-photo-6195114.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: waterpumps,
         description: 'Heavy-duty vacuum cleaner for commercial use',
         features: ['High Suction Power', 'Large Capacity', 'HEPA Filter']
       },
       {
         id: 12,
-        name: 'Eco-Friendly Cleaning Kit',
-        price: '$89.99',
+        name: 'Multi Stage Centrifugal Pumps',
+        price: 'Coming Soon!',
         rating: 4.5,
         reviews: 28,
-        image: 'https://images.pexels.com/photos/4099235/pexels-photo-4099235.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: multistagepump,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 13,
+        name: 'Automatic Pressure Control Kits',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: autopressurekits,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 14,
+        name: 'Peripheral Water Pumps',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: peripheralwaterpump,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 15,
+        name: 'Float Switches',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: floatswitches,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 16,
+        name: 'Motor Starters',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: motorstarters,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 17,
+        name: 'Bathroom Faucets and Water Showers Heads',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: bathroomfaucets,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 18,
+        name: 'Trigger Sprays Shower Head',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: triggersprays,
         description: 'Complete eco-friendly cleaning solution set',
         features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
       }
