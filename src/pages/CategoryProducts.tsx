@@ -568,9 +568,9 @@ const CategoryProducts = () => {
     ],
     networking: [
       {
-        id: 18,
-        name: 'Hotel Quality Bed Linens',
-        price: '$159.99',
+        id: 46,
+        name: 'Cat-6 Cable',
+        price: 'Coming Soon!',
         rating: 4.6,
         reviews: 42,
         image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -578,36 +578,156 @@ const CategoryProducts = () => {
         features: ['100% Cotton', 'Thread Count 400', 'Machine Washable']
       },
       {
-        id: 19,
-        name: 'Premium Bath Towel Set',
-        price: '$79.99',
+        id: 47,
+        name: 'CCTV Cameras',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198366/pexels-photo-6198366.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 48,
+        name: 'Structure Cable System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198361/pexels-photo-6198361.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 49,
+        name: 'Access Control System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/271891/pexels-photo-271891.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 50,
+        name: 'Smart Home System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198364/pexels-photo-6198364.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 51,
+        name: 'Gate Automation System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 52,
+        name: 'Audio/Video Intercomm',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198362/pexels-photo-6198362.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 53,
+        name: 'PA System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/271893/pexels-photo-271893.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 54,
+        name: 'Disable Alarm System',
+        price: 'Coming Soon!',
         rating: 4.7,
         reviews: 35,
         image: 'https://images.pexels.com/photos/6198368/pexels-photo-6198368.jpeg?auto=compress&cs=tinysrgb&w=400',
         description: 'Luxury hotel-grade towel set made from Egyptian cotton',
         features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
-      }
+      },
+      {
+        id: 55,
+        name: 'Building Management System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198370/pexels-photo-6198370.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 56,
+        name: 'PABX (Private Automatic Branch Exchange) System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 57,
+        name: 'Network Cable Solution',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198368/pexels-photo-6198368.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 58,
+        name: 'SMATV & IPTV System',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/271897/pexels-photo-271897.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
+      {
+        id: 59,
+        name: 'Motion Sensors',
+        price: 'Coming Soon!',
+        rating: 4.7,
+        reviews: 35,
+        image: 'https://images.pexels.com/photos/6198371/pexels-photo-6198371.jpeg?auto=compress&cs=tinysrgb&w=400',
+        description: 'Luxury hotel-grade towel set made from Egyptian cotton',
+        features: ['Egyptian Cotton', 'Highly Absorbent', 'Quick Dry']
+      },
     ],
     packaging: [
       {
-        id: 20,
+        id: 60,
         name: 'Commercial Coffee Machine',
         price: '$1,299.99',
         rating: 4.8,
         reviews: 15,
-        image: 'https://images.pexels.com/photos/4226861/pexels-photo-4226861.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: 'https://images.pexels.com/photos/271898/pexels-photo-271898.jpeg?auto=compress&cs=tinysrgb&w=400',
         description: 'Professional espresso machine for cafes and restaurants',
         features: ['Dual Boiler', 'Steam Wand', 'Programmable']
       }
     ],
     marine: [
       {
-        id: 21,
+        id: 61,
         name: 'Guest Amenity Kit',
         price: '$24.99',
         rating: 4.5,
         reviews: 67,
-        image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=400',
+        image: 'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=400',
         description: 'Complete guest amenity kit for hotels',
         features: ['Travel Size', 'Premium Quality', 'Eco-Friendly Packaging']
       }
