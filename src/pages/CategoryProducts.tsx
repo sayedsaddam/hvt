@@ -48,6 +48,16 @@ import plumbing2 from '../assets/images/plumbing/plumbing-material-2.webp';
 import plumbing3 from '../assets/images/plumbing/plumbing-material-3.webp';
 import plumbing4 from '../assets/images/plumbing/plumbing-material-4.webp';
 import plumbing5 from '../assets/images/plumbing/plumbing-material-5.webp';
+import tee from '../assets/images/plumbing/tee.webp';
+import elbow from '../assets/images/plumbing/elbow.webp';
+import cuffling from '../assets/images/plumbing/cuffling.webp';
+import reducingtee from '../assets/images/plumbing/reducing-tee.webp';
+import reducingcuffling from '../assets/images/plumbing/reducing-cuffling.webp';
+import shortbridge from '../assets/images/plumbing/short-bridge.webp';
+import reducingelbow from '../assets/images/plumbing/reducing-elbow.webp';
+import femaleelbow from '../assets/images/plumbing/female-elbow.webp';
+import stopvalve from '../assets/images/plumbing/stop-valve.webp';
+import endcap from '../assets/images/plumbing/end-cap.webp';
 
 const CategoryProducts = () => {
   const { categoryId } = useParams();
@@ -396,7 +406,7 @@ const CategoryProducts = () => {
     ],
     plumbing: [
       {
-        id: 13,
+        id: 31,
         name: 'Tee, Elbow, Coupling, & Reducers',
         price: 'Coming Soon!',
         rating: 4.7,
@@ -406,7 +416,7 @@ const CategoryProducts = () => {
         features: ['Branches pipe flow', 'Durable', 'Pressure resistant']
       },
       {
-        id: 14,
+        id: 32,
         name: 'PPR and PVC Pipes & Fittings',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -416,7 +426,7 @@ const CategoryProducts = () => {
         features: ['Corrosion Resistant', 'Lightweight', 'UV Resistant']
       },
       {
-        id: 15,
+        id: 33,
         name: 'Stop Valves, Short Bridge, Blastic Ball Valves',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -426,7 +436,7 @@ const CategoryProducts = () => {
         features: ['Precise shut-off', 'Leak-proof', 'Anti-corrosive']
       },
       {
-        id: 16,
+        id: 34,
         name: 'Conduit Pipes, Fix Pipes, PVC Drainage Pipes',
         price: 'Coming Soon!',
         rating: 4.6,
@@ -436,12 +446,122 @@ const CategoryProducts = () => {
         features: ['Lightweight, easy installation', 'Temperature resistant', 'UV resistant']
       },
       {
-        id: 17,
+        id: 35,
         name: 'FE Double Union, Brass Unions, Reducing Elbow',
         price: 'Coming Soon!',
         rating: 4.6,
         reviews: 22,
         image: plumbing5,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 36,
+        name: 'Tee',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: plumbing5,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 37,
+        name: 'Tee',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: tee,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 38,
+        name: 'Elbow',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: elbow,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 39,
+        name: 'Cuffling',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: cuffling,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 40,
+        name: 'Reducing Tee',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: reducingtee,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 41,
+        name: 'Reducing Cuffling',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: reducingcuffling,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 42,
+        name: 'Short Bridge',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: shortbridge,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 43,
+        name: 'Reducing Elbow',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: reducingelbow,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 44,
+        name: 'Female Elbow',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: femaleelbow,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 45,
+        name: 'Stop Valve',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: stopvalve,
+        description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
+        features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
+      },
+      {
+        id: 45,
+        name: 'End Cap',
+        price: 'Coming Soon!',
+        rating: 4.6,
+        reviews: 22,
+        image: endcap,
         description: 'A durable selection of pipe fittings designed for secure and flexible connections in plumbing and industrial systems. FE Double Unions provide easy disassembly for maintenance, Brass Unions offer corrosion-resistant and leak-proof joins, and Reducing Elbows ensure smooth directional changes between different pipe sizes.',
         features: ['2-piece design', 'Corrosion Resistant', 'Reduce Turbulence']
       }
