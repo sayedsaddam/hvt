@@ -29,6 +29,18 @@ import multistagepump from '../assets/images/hardware/multi-stage-pump.webp';
 import peripheralwaterpump from '../assets/images/hardware/peripheral-water-pump.webp';
 import triggersprays from '../assets/images/hardware/trigger-sprays.webp';
 import waterpumps from '../assets/images/hardware/water-pumps.webp';
+import anglevalve from '../assets/images/hardware/angle-valve.webp';
+import cuttingtools from '../assets/images/hardware/cutting-tools.webp';
+import fasteningtools from '../assets/images/hardware/fastening-tools.webp';
+import hammers from '../assets/images/hardware/hammers.webp';
+import kitchenmixer from '../assets/images/hardware/kitchen-mixer.webp';
+import pliers from '../assets/images/hardware/pliers.webp';
+import powertools from '../assets/images/hardware/power-tools.webp';
+import singleleverbath from '../assets/images/hardware/single-lever-bath.webp';
+import singleleverwashbasin from '../assets/images/hardware/single-lever-wash-basin.webp';
+import toolbox from '../assets/images/hardware/tool-box.webp';
+import waterheaterblu from '../assets/images/hardware/water-heater-blu.webp';
+import waterheater from '../assets/images/hardware/water-heater.webp';
 
 // CategoryProducts - Plumbing Solutions
 import plumbing1 from '../assets/images/plumbing/plumbing-material-1.webp';
@@ -258,6 +270,126 @@ const CategoryProducts = () => {
         rating: 4.5,
         reviews: 28,
         image: triggersprays,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 19,
+        name: 'Angle Valve',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: anglevalve,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 20,
+        name: 'Single Lever Wash Basin',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: singleleverwashbasin,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 21,
+        name: 'Single Lever Bath and Shower Mixer',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: singleleverbath,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 22,
+        name: 'Single Lever Kitchen Mixer',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: kitchenmixer,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 23,
+        name: 'Hammers',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: hammers,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 24,
+        name: 'Pliers',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: pliers,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 25,
+        name: 'Fastening Tools',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: fasteningtools,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 26,
+        name: 'Cutting Tools',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: cuttingtools,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 27,
+        name: 'Power Tools',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: powertools,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 28,
+        name: 'Tool Boxes',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: toolbox,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 29,
+        name: 'Water Heater Pro IR Series',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: waterheater,
+        description: 'Complete eco-friendly cleaning solution set',
+        features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
+      },
+      {
+        id: 30,
+        name: 'Water Heater Blu IR Series',
+        price: 'Coming Soon!',
+        rating: 4.5,
+        reviews: 28,
+        image: waterheaterblu,
         description: 'Complete eco-friendly cleaning solution set',
         features: ['Biodegradable', 'Non-Toxic', 'Concentrated Formula']
       }
